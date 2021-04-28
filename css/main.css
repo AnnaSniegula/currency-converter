@@ -1,0 +1,21 @@
+.main {
+    border: 10px solid #892d8beb;
+    max-width: 400px;
+    padding: 20px;
+    margin: 50px 0;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 10px 10px white;
+    display: inline-block;
+}
+
+.main__link {
+    color: #892d8beb;
+    text-decoration: none;
+}
+
+.main__link:hover {
+    color: black;
+}
+
