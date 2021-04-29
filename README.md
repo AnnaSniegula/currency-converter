@@ -6,3 +6,8 @@ demo https://annasniegula.github.io/currency-converter/
 Platform:
 - converts PLN to EUR or USD
 - removes input
+
+## Technologies used:
+- HTML
+- CSS
+- JavaScript
