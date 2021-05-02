@@ -55,17 +55,17 @@ const getResult = document.querySelector(".js-result");
      
     
         switch (currency) {
-            case "usd":
+            case "USD":
                return amount / rateUSD;
 
-            case "eur":
+            case "EUR":
                 return amount / rateEUR;  
         }
            
     };
 
     
-form.addEventListener("submit"), (event) => {
+form.addEventListener("submit", (event) => {
     event.preventDefault();
 
     const currency = selectCurrency.value;
@@ -75,7 +75,7 @@ form.addEventListener("submit"), (event) => {
 
     getResult.innerText = `${result.toFixed(2)} ${currency}`;
 
-    }
+    })
 
 form.addEventListener("reset", () => {
         getResult.innerText = " ";
