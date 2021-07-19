@@ -1,21 +1,21 @@
 .main {
-    border: 10px solid #892d8beb;
+    border: 10px solid hsla(299, 51%, 36%, 0.922);
     max-width: 400px;
     padding: 20px;
     margin: 50px 0;
     text-align: center;
-    background-color: #fff;
+    background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
-    box-shadow: 10px 10px white;
+    box-shadow: 10px 10px hsl(0, 0%, 100%);
     display: inline-block;
 }
 
 .main__link {
-    color: #892d8beb;
+    color: hsla(299, 51%, 36%, 0.922);
     text-decoration: none;
 }
 
 .main__link:hover {
-    color: black;
+    color: hsl(0, 0%, 0%);
 }
 
